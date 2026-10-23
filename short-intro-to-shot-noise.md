@@ -42,12 +42,14 @@ which we define as a quadrature Q.
 
 Looking at the variance of this we get:
 
-$$ \begin{aligned}
+```math
+\begin{aligned}
 var(Q) &= \braket{Q^2} - \braket{Q}^2 \\
 &= \braket{\delta \beta^{2} + \delta \beta^{*2} + 2 \delta \beta \delta \beta^{*} } - \braket{\delta \beta + c.c.}^2 \\
 &=  0 + 0 + 2V_0/2 + 0 - 0 \\
-&= V_0
-\end{aligned} $$
+&= V_0 
+\end{aligned}
+```
 
 So mixing a coherent state with itself on a beam splitter gives the quadrature, and the variance of this gives shot noise (quadrature and varaince proportional to field $\alpha$ and intensity $|\alpha|^2$ of coherent state respectively).
 
