@@ -14,11 +14,11 @@ With $\alpha$ being a complex number, $\delta \alpha$ being a noise term with ze
 
 $$\braket{\delta \alpha} = 0$$
 
-and variance $V_0$.
+and variance $V_0/2$.
 
 and $c.c.$ being a complex conjugate.
 
-$$\braket{\delta \alpha ^* \delta \alpha} = 0, \braket{\delta \alpha \,\delta \alpha^*} = V_0$$
+$$ \braket{\delta \alpha \,\delta \alpha^*} = V_0/2$$
 
 If we incident this on a beam splitter, $E$ enters on one port, but vacuum fluctuations enter on the other as well $\delta \beta$, so we get:
 
@@ -44,8 +44,8 @@ Looking at the variance of this we get:
 
 $$\begin{aligned}
 var(Q) &= \braket{Q^2} - \braket{Q}^2 \\
-&= \braket{\delta \beta^2 + \delta\beta^{*2} + \delta\beta\delta\beta^* + \delta\beta^*\delta \beta} - \braket{\delta \beta + c.c.}^2 \\
-&=  0 + 0 + V_0 + 0 - 0 \\
+&= \braket{\delta \beta^2 + \delta\beta^{*2} + 2\delta\beta\delta\beta^*} - \braket{\delta \beta + c.c.}^2 \\
+&=  0 + 0 + 2V_0/2 + 0 - 0 \\
 &= V_0
 \end{aligned}$$
 
