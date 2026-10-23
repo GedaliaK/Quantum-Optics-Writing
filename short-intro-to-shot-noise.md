@@ -44,7 +44,7 @@ Looking at the variance of this we get:
 
 $$ \begin{aligned}
 var(Q) &= \braket{Q^2} - \braket{Q}^2 \\
-&= \braket{\delta \beta^2 + \delta\beta^{*2} + 2\delta\beta\delta\beta^* } - \braket{\delta \beta + c.c.}^2 \\
+&= \braket{\delta \beta^2 + \delta\beta^{*2} + 2\delta\beta\delta\beta^{*} } - \braket{\delta \beta + c.c.}^2 \\
 &=  0 + 0 + 2V_0/2 + 0 - 0 \\
 &= V_0
 \end{aligned} $$
